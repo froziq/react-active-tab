@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import validateProperties from 'utils/validateProperties';
-import bubble from 'utils/bubble';
+import validateProperties from './utils/validateProperties';
+import bubble from './utils/bubble';
 
 const getAnimation = (animation, toWidth, fromWidth, toOffsetLeft, fromOffsetLeft) => {
   if (animation === 'bubble') {
