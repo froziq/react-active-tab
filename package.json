@@ -1,17 +1,20 @@
 {
-  "name": "my-app",
+  "name": "react-active-tab",
+  "description": "React library for translate active state bellow tabs",
   "version": "0.1.0",
-  "private": true,
+  "keywords": [
+    "active",
+    "tab"
+  ],
+  "homepage": "https://github.com/froziq/react-active-tab",
+  "bugs": "https://github.com/froziq/react-active-tab/issues",
+  "repository": "git@github.com:froziq/react-active-tab.git",
+  "author": "Yuriy Markov <markov.yuriy94@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-scripts": "1.1.4",
     "styled-components": "3.2.6"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
