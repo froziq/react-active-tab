@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import DefaultTab from 'DefaultTab';
+import DefaultTab from './DefaultTab';
 import Active from './Active';
 import Wrapper from './Wrapper';
 

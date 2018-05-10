@@ -1,33 +1,35 @@
 {
   "name": "react-active-tab",
+  "version": "0.1.1",
   "description": "React library for translate active state bellow tabs",
-  "main": "cjs/index.js",
+  "main": "lib/index.js",
   "module": "es/index.js",
-  "version": "0.1.0",
-  "keywords": [
-    "active",
-    "tab"
+  "files": [
+    "es",
+    "lib"
   ],
-  "scripts": {
-    "build": "npm run clean && rollup -c",
-    "clean": "rm -rf es cjs",
-    "buildDev": "react-scripts build",
-    "lib": "babel src/ --out-dir lib --copy-files"
-  },
   "homepage": "https://github.com/froziq/react-active-tab",
   "bugs": "https://github.com/froziq/react-active-tab/issues",
   "repository": "git@github.com:froziq/react-active-tab.git",
   "author": "Yuriy Markov <markov.yuriy94@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "active",
+    "tab"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo"
+  },
   "dependencies": {
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-scripts": "1.1.4",
-    "rollup": "0.58.2",
-    "rollup-plugin-babel": "3.0.4",
     "styled-components": "3.2.6"
   },
+  "peerDependencies": {
+    "react": "16.3.2"
+  },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "nwb": "0.21.x",
+    "react": "16.3.2",
+    "react-dom": "16.3.2"
   }
 }
