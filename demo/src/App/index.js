@@ -1,9 +1,9 @@
 import React from 'react';
 import 'sanitize.css';
-import 'global-styles';
 
-import DefaultTabs from 'DefaultTabs';
-import StyledTabs from 'StyledTabs';
+import '../global-styles';
+import DefaultTabs from '../DefaultTabs';
+import StyledTabs from '../StyledTabs';
 
 import Wrapper from './Wrapper';
 

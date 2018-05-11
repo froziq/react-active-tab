@@ -11,12 +11,10 @@ injectGlobal`
       url(fonts/lato-light.woff2) format("woff2"),
       url(fonts/lato-light.woff) format("woff");
   }
-
   html {
     height: 100%;
     width: 100%;
   }
-
   body {
     height: 100%;
     width: 100%;

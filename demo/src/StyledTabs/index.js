@@ -1,6 +1,7 @@
 import React from 'react';
 import ActiveTab from 'react-active-tab';
-import { COLORS } from 'styleguide';
+
+import { COLORS } from '../styleguide';
 
 import StyledTab from './StyledTab';
 import TabsWrapper from './TabsWrapper';
