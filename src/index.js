@@ -60,6 +60,7 @@ export class ActiveTab extends React.PureComponent {
           prevTranslate={this.state.prevOffsetLeft}
           height={this.props.height}
           animation={this.props.animation}
+          color={this.props.color}
         />
       </Wrapper>
     );

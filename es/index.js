@@ -81,7 +81,8 @@ export var ActiveTab = function (_React$PureComponent) {
         translate: this.state.offsetLeft,
         prevTranslate: this.state.prevOffsetLeft,
         height: this.props.height,
-        animation: this.props.animation
+        animation: this.props.animation,
+        color: this.props.color
       })
     );
   };
