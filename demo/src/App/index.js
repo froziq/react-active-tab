@@ -4,6 +4,7 @@ import 'sanitize.css';
 import '../global-styles';
 import DefaultTabs from '../DefaultTabs';
 import StyledTabs from '../StyledTabs';
+import SeveralStyledTabs from '../SeveralStyledTabs';
 
 import Wrapper from './Wrapper';
 
@@ -14,6 +15,8 @@ class App extends React.PureComponent {
         <DefaultTabs />
 
         <StyledTabs />
+
+        <SeveralStyledTabs />
       </Wrapper>
     );
   }

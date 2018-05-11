@@ -13,9 +13,13 @@ const TABS = [
   { description: 'Harry Potter', value: 'hogwarts' },
   { description: 'Tor', value: 'avengers' },
   { description: 'Secret agent', value: '007' },
+  { description: 'Secret agent', value: '002' },
+  { description: 'Secret agent', value: '003' },
+  { description: 'Secret agent', value: '004' },
+  { description: 'Secret agent', value: '005' },
 ];
 
-class StyledTabs extends React.PureComponent {
+class NeedMoreTabs extends React.PureComponent {
   state = {
     activeTab: 'hero',
   }
@@ -45,4 +49,4 @@ class StyledTabs extends React.PureComponent {
   }
 }
 
-export default StyledTabs;
+export default NeedMoreTabs;

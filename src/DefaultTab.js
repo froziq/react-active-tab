@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 const DefaultTab = styled.button`
   height: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0;
   background-color: transparent;
   border: none;
   font-family: 'Roboto', sans-serif;

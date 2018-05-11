@@ -26,7 +26,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "react-active-tab": "0.1.1",
+    "react-active-tab": "0.1.2",
     "sanitize.css": "5.0.0",
     "styled-components": "3.2.6"
   },
