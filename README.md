@@ -2,7 +2,9 @@
 
 React library that stress active state bellow tab and animate it when active state changed.
 
-[`DEMO`] TODO
+## DEMO
+
+[`DEMO`] (https://froziq.github.io/react-active-tab/)
 
 ## Install
 
@@ -17,7 +19,9 @@ yarn add react-active-tab
 ```
 
 ## Usage
-TODO
+
+Add some dynamics to tabs in your project by using this library.
+Simply install as dependencies via npm/yarn.
 
 ## Authors
 
