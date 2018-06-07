@@ -4,7 +4,7 @@ React library that stress active state bellow tab and animate it when active sta
 
 ## DEMO
 
-[`DEMO`] (https://froziq.github.io/react-active-tab/)
+[`DEMO`](https://froziq.github.io/react-active-tab/)
 
 ## Install
 
