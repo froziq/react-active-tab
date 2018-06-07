@@ -7,16 +7,19 @@ import StyledTabs from '../StyledTabs';
 import SeveralStyledTabs from '../SeveralStyledTabs';
 
 import Wrapper from './Wrapper';
+import Container from './Container';
 
 class App extends React.PureComponent {
   render() {
     return (
       <Wrapper>
-        <DefaultTabs />
+        <Container>
+          <DefaultTabs />
 
-        <StyledTabs />
+          <StyledTabs />
 
-        <SeveralStyledTabs />
+          <SeveralStyledTabs />
+        </Container>
       </Wrapper>
     );
   }

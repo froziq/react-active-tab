@@ -17,7 +17,7 @@ const StyledTabOne = styled.button`
 
   @media (min-width: ${BREAKPOINTS.desktop}px) {
     padding: 20px 30px;
-    font-size: 32px;
+    font-size: 25px;
   }
 `;
 
