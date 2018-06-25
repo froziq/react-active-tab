@@ -1,22 +1,37 @@
 import { injectGlobal } from 'styled-components';
 
 injectGlobal`
-  /* Lato (light, regular) */
+  /* Rubik (light) */
   @font-face {
-    font-family: Lato;
+    font-family: RubikLight;
     font-weight: 300;
     font-style: normal;
     text-rendering: optimizeLegibility;
     src:
-      url(fonts/lato-light.woff2) format("woff2"),
-      url(fonts/lato-light.woff) format("woff");
+      url(fonts/rubik-light.woff2) format("woff2"),
+      url(fonts/rubik-light.woff) format("woff");
   }
+
+  /* Rubik (regular) */
+  @font-face {
+    font-family: RubikRegular;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    src:
+      url(fonts/rubik-regular.woff2) format("woff2"),
+      url(fonts/rubik-regular.woff) format("woff");
+  }
+
   html {
     height: 100%;
     width: 100%;
   }
+
   body {
     height: 100%;
     width: 100%;
+    font-family: 'RubikRegular', sans-serif;
+    font-weight: 400;
   }
 `;
