@@ -8,8 +8,8 @@ injectGlobal`
     font-style: normal;
     text-rendering: optimizeLegibility;
     src:
-      url(fonts/rubik-light.woff2) format("woff2"),
-      url(fonts/rubik-light.woff) format("woff");
+      url(rubik-light.woff2) format("woff2"),
+      url(rubik-light.woff) format("woff");
   }
 
   /* Rubik (regular) */
@@ -19,8 +19,8 @@ injectGlobal`
     font-style: normal;
     text-rendering: optimizeLegibility;
     src:
-      url(fonts/rubik-regular.woff2) format("woff2"),
-      url(fonts/rubik-regular.woff) format("woff");
+      url(rubik-regular.woff2) format("woff2"),
+      url(rubik-regular.woff) format("woff");
   }
 
   html {
