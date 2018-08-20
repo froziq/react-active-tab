@@ -13,9 +13,6 @@ const StyledTab = styled.button`
     box-shadow: 0 8px 16px 0 rgba(0 ,0, 0, 0.1), 0 0 1px 1px rgba(0, 0, 0, 0.1);
   }
 
-  @media (min-width: ${BREAKPOINTS.tablet}px) {
-  }
-
   @media (min-width: ${BREAKPOINTS.desktop}px) {
     padding: 20px 30px;
     font-size: 25px;

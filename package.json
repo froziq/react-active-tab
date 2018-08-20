@@ -1,7 +1,7 @@
 {
   "name": "react-active-tab",
   "version": "0.1.2",
-  "description": "React library for translate active state bellow tabs",
+  "description": "React library for change active tabs state",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [

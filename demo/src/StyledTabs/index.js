@@ -27,7 +27,7 @@ class StyledTabs extends React.PureComponent {
   render() {
     return (
       <Section>
-        <Title>Styled tabs</Title>
+        <Title>All styled tabs</Title>
 
         <TabsWrapper>
           <ActiveTab
@@ -40,6 +40,42 @@ class StyledTabs extends React.PureComponent {
             widthPercent={0.7}
           />
         </TabsWrapper>
+
+        <pre>
+          <code className="language-javascript">{`
+// StyledTab.js
+import styled from 'styled-components';
+
+const StyledTab = styled.button'
+  padding: 10px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  transition: box-shadow 0.4s;
+  
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0 ,0, 0, 0.1), 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+';
+
+export default StyledTab;
+
+// imdex.js
+import StyledTab from './StyledTab';
+...
+
+...
+<ActiveTab
+  tabs={TABS} 
+  activeTab={this.state.activeTab}
+  onTabClick={this.handleTabClick}
+  color={COLORS.indigo}
+  styledTab={StyledTab}
+  bottom={-2}
+  widthPercent={0.7}
+/>`}
+          </code>
+        </pre>
       </Section>
     );
   }

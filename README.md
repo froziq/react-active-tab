@@ -13,11 +13,6 @@ via NPM
 npm install react-active-tab --save
 ```
 
-via yarn
-```bash
-yarn add react-active-tab
-```
-
 ## Usage
 
 Add some dynamics to tabs in your project by using this library.

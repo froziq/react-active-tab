@@ -1,5 +1,6 @@
 import React from 'react';
 import 'sanitize.css';
+import 'prismjs/themes/prism.css';
 
 import '../global-styles';
 import DefaultTabs from '../DefaultTabs';
@@ -7,19 +8,16 @@ import StyledTabs from '../StyledTabs';
 import SeveralStyledTabs from '../SeveralStyledTabs';
 
 import Wrapper from './Wrapper';
-import Container from './Container';
 
 class App extends React.PureComponent {
   render() {
     return (
       <Wrapper>
-        <Container>
-          <DefaultTabs />
+        <DefaultTabs />
 
-          <StyledTabs />
+        <StyledTabs />
 
-          <SeveralStyledTabs />
-        </Container>
+        <SeveralStyledTabs />
       </Wrapper>
     );
   }

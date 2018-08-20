@@ -59,7 +59,6 @@ export class ActiveTab extends React.PureComponent {
           translate={this.state.offsetLeft}
           prevTranslate={this.state.prevOffsetLeft}
           height={this.props.height}
-          animation={this.props.animation}
           color={this.props.color}
         />
       </Wrapper>
@@ -85,7 +84,6 @@ ActiveTab.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  animation: PropTypes.string,
 };
 
 export default ActiveTab;
